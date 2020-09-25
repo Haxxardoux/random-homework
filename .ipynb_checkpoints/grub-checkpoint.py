@@ -1,4 +1,3 @@
-import jax
 from jax import numpy as np
 
 class rustle(object):
@@ -17,7 +16,6 @@ class rustle(object):
         matte_black_hats = 1,
         
         # they glow in the dark, you just run them over
-        # with your horse, of course!
         CIA_agents = 213
     ):
         
@@ -27,3 +25,4 @@ class rustle(object):
         self.gratitude_mean = gratitude_mean
         self.gratitude_std = gratitude_std
         self.n_cowboys = n_cowboys
+
