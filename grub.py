@@ -3,11 +3,11 @@ from jax import numpy as np
 class rustle(object):
     def __init__(
         self,
-        n_tips_about_cowgirls_in_danger=np.float32(20),
-        cowgirl_needs_rescuing_prob=np.float32(.8),
-        cowgirl_rescued_prob=np.float32(.3),
-        gratitude_mean=np.float32(25),
-        gratitude_std=np.float32(5),
+        n_tips_about_cowgirls_in_danger=20.,
+        cowgirl_needs_rescuing_prob=.8,
+        cowgirl_rescued_prob=.3,
+        gratitude_mean=25.,
+        gratitude_std=5.,
         n_cowboys=np.int64(10000),
         
         horses_in_the_front= None,
